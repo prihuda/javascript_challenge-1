@@ -39,3 +39,9 @@ contoh: git remote add origin git@github.com:prihuda/prihuda.github.io.git
 - setelah itu yang request bisa push code lagi ke branch repo untuk direview sampai tuntas oleh master
 - jika sudah ok maka pemilik repository bisa melakukan merge request ke master repo
 
+## Gitignore
+
+- Gitignore berfungsi Mengabaikan file yang tidak perlu di-record oleh GIT dalam lingkup project, dalam lingkup project bisa berupa Framework yang digunakan dan package atau library
+- Git terbagi 2 global dan spesifik, global bisa dengan cara membuat file gitignore global setelah itu ambil bisa mengambil referensi dari [https://github.com/github/gitignore/tree/master/Global]
+- setelah itu jalankan perintah "git config --global core.excludesfile ~/.gitignore_global"
+- Untuk yang spesifik buat sebuah file .gitignore, lalu tambahkan komen didalam folder .gitignore sesuai keinginan seperti "test.js" yang berarti test.js tidak di add.
